@@ -1,5 +1,38 @@
 
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5rem;
+}
+
+ *, *::before, *::after {
+   box-sizing: inherit;
+ }
+
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: #444;
+}
+
+h2 {
+  text-align: center;
+}
+
 ul {
   display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  text-decoration: none;
+  padding: .5rem;
+  display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 10%;
 }
